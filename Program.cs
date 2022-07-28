@@ -14,3 +14,15 @@ void Array(string[] arr1, string[] arr2)
     }
 }
 Array(arr1, arr2);
+
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i] + "\t");
+    }
+    Console.WriteLine();
+}
+
+PrintArray(arr1);
+PrintArray(arr2);
